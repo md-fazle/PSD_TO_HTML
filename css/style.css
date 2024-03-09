@@ -1,0 +1,282 @@
+body{
+    margin: auto;
+    height: 100%;
+    font-family: sans-serif;
+}
+.top-bar {
+    background-color: #020e28;
+    padding: 10px;
+    text-align: center;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navbar-custom {
+    background-color: #ffffff; 
+    padding: 10px;
+    height: 100px;
+    
+}
+
+.navbar-custom .navbar-brand {
+    color: #230deb;
+    font-weight: bold;
+}
+.logo{
+   
+    max-width: 100px;  
+    margin-left: 200px;  
+
+}
+.navbar-nav {
+    list-style: none;
+    margin-left: 200px;
+  }
+.navbar-custom a {
+    color: #323653;
+    margin-left: 20px;
+}
+
+.navbar-custom a:hover {
+    color: #f1af06;
+}
+
+.btn-custom {
+    background: linear-gradient(to right, #ebb221 20%, #3765c2 80%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(to right, #ebb221 20%, #3765c2 80%);
+    background: -webkit-linear-gradient();
+}
+
+
+.hero-section {
+    background-image:url("../img/page/banner.png");
+    height:700px;
+  }
+.left{
+    height:700px;
+    width: 40%;
+}
+.right{
+    height:700px;
+    width: 60%;
+}
+.con1{
+  height:400px;
+  width: 400px;
+  margin-left: 110px;
+  margin-top: 240px;
+}
+.con1 h1 {
+ 
+    color: white
+  }
+
+  .con1 p {
+   
+    color:#b0b0b0
+  }
+  .circle { 
+    width: 591px; 
+    height: 591px; 
+    border-radius: 50%; 
+    margin-top: 65px;
+    margin-left: 60px;
+} 
+.overlap{
+    margin-top: -638px;
+    margin-left: 4px;
+}
+
+.ring{
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 335px;
+}
+.one{
+    height: 10px;
+    width: 10px;
+}
+.two{
+    height: 10px;
+    width: 10px;
+}
+.three{
+    height: 10px;
+    width: 10px;
+}
+ 
+.hero-section2{
+    height: 800px;   
+}
+.card_section{
+    height: 300px;
+}
+.card_control{
+    margin-top: 100px;
+}
+.card-group {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 85px;
+    width: 90%;
+    margin-left: 53px;
+}
+.card_Layer{
+    height: 300px;
+ 
+}
+.card_img{
+    width:40%;
+}
+.head_content{
+    width:54%;
+    margin-top: 18px;
+}
+
+
+.banner2{
+    height:400px;
+}
+.left1{
+    height:400px;
+    width: 40%;
+}
+.right1{
+    height:400px;
+    width: 60%;
+}
+.middle{
+    height: 3px;
+    width: 100px;
+    background-color: 007dff;
+    border-radius: 5px;
+}
+.con2{
+    height:400px;
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 70px;
+  }
+  .con2 h1 {
+   
+      color: white
+    }
+  
+    .con2 p {
+     
+      color: black;
+      text-align: left;
+    }
+    .circle1 { 
+      width:350px; 
+      height:350px; 
+      background-color:blue;
+      border-radius: 50%; 
+      margin-left: 130px;
+  } 
+ 
+  .hero-section3{
+    height: 700px;
+    background-image: url("../img/page/banner2.png");
+  }
+ .controler{
+    height: 500px;
+    width: 1200px;
+    margin-top: 103px;
+ }
+ .hero-section4{
+    height: 650px;
+ }
+
+ .left3{
+    height:700px;
+    width: 60%;
+}
+.right3{
+    height:700px;
+    width: 40%;
+}
+.con3{
+  height:300px;
+  width: 300px;
+  margin-left: 110px;
+  margin-top: 240px;
+}
+.head{
+    height: 23px;
+    width: 437px;
+    margin-left: 162px;
+    margin-top: 113px;
+}
+.line{
+    height: 3px;
+    width: 100px;
+    background-color: #230deb;
+    border-radius: 10%;
+}
+.overlap2{
+    margin-top: -608px;
+    margin-left: -89px;
+}
+.hero-section5{
+    height: 600px;
+    background-image: url("../img/page/banner3.png");
+}
+.over_content{
+    height: 260px;
+    width: 868px;
+    background-color: #020e28;
+    margin-top: -309px;
+    margin-left: 487px;
+}
+.design{
+    height: 400px;
+    background-color: #020e28;
+     
+}
+
+.foot-logo{
+    margin-left: 534px;
+    margin-top: 28px;
+    width: 100px;
+}
+ 
+
+
+
+@media (max-width: 768px) {
+    .navbar-custom .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .navbar-custom a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero-section p {
+      font-size: 1rem;
+    }
+  }
